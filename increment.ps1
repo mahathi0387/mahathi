@@ -43,7 +43,7 @@ $xmldata.project.version = $newVersion
 $xmldata.Save("C:\Users\HAI\training\mahathi\pom.xml")
 Set-Location "C:\Users\HAI\training\mahathi"
 git add .
-git commit -m $mes
+git commit -m "upd"
 git push
 
 
