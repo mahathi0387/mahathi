@@ -41,6 +41,9 @@ Write-host("New version:" + $newVersion)
 
 $xmldata.project.version = $newVersion
 $xmldata.Save("C:\Users\HAI\training\mahathi\pom.xml")
+git add .
+git commit -m $mes
+git push
 
 
 
