@@ -42,8 +42,10 @@ Write-host("New version:" + $newVersion)
 $xmldata.project.version = $newVersion
 $xmldata.Save("C:\Users\HAI\training\mahathi\pom.xml")
 Set-Location "C:\Users\HAI\training\mahathi"
+git checkout master
 git add .
 git commit -m "upd"
+git push
 
 
 
